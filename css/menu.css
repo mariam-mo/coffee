@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root body {
+  margin: 0;
+  background-color: #04191d;
+}
+/*********** start navbar ************/
+.header-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 60;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+  -moz-transition: 500ms ease-in-out;
+  -ms-transition: 500ms ease-in-out;
+  -o-transition: 500ms ease-in-out;
+}
+.logo {
+  padding: 0;
+  color: #f8f9fa;
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-family: "Brygada 1918", serif;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Roboto";
+  line-height: 1.7;
+  color: #f8f9fa;
+  font-size: 1rem;
+  padding: 35px;
+  text-decoration: none;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header-nav li a:hover {
+  color: #d68240;
+}
+
+.bttn {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #d68240;
+  text-decoration: none;
+  color: #eae5dc;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Italiana";
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.bttn {
+  height: 60px;
+  line-height: calc(60px - 2px);
+}
+.action a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+.action:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.navbar-color {
+  background-color: rgb(3, 27, 32);
+}
+/*********** end navbar ************/
+/*********** start custom scrollbar  ************/
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #04191d;
+}
+::-webkit-scrollbar-thumb {
+  background: #d68240;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/*********** end custom scrollbar  ************/
+/*********** start img ************/
+.card-img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(12, 48, 54, 0.355);
+}
+.sub-txt {
+  margin-top: 11rem;
+  text-align: center;
+}
+.sub-name {
+  font-family: "Italiana";
+  color: #e5ebef;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 1.2;
+}
+
+/*********** end img ************/
+/*********** start product ************/
+.menu-buttons {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 50px;
+  gap: 2rem;
+}
+.menu-btn {
+  text-decoration: none;
+  font-family: "Italiana", sans-serif;
+  color: #eae5dc;
+  font-size: 17px;
+  letter-spacing: 1px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.menu-buttons a:focus,
+a::after {
+  background-color: #d68240;
+}
+.menu-num {
+  text-align: center;
+  justify-content: center;
+  color: #eae5dc;
+  font-family: "Roboto";
+  margin-top: 5rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.menu-type {
+  text-align: center;
+  justify-content: center;
+  font-family: "Italiana";
+  color: #eae5dc;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.product-prg {
+  font-family: "Roboto";
+  color: #eae5dc7a;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+}
+.text-section {
+  padding: 1.7rem 1.5rem;
+}
+.card-title {
+  font-family: "Italiana";
+  color: #eae5dc;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.card-text {
+  font-family: "Roboto";
+  color: #eae5dc7a;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+}
+.lin1 {
+  font-family: "Roboto";
+  display: flex;
+  gap: 9rem;
+}
+.card-body {
+  background-color: #031d21;
+}
+span {
+  color: #eae5dc7a;
+}
+.collection {
+  display: none;
+}
+.product {
+  margin-bottom: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
+.products {
+  margin-bottom: 7rem;
+}
+.cards-container {
+  margin: auto;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.card-coff {
+  max-width: 33em;
+  max-height: 25em;
+  flex-direction: row;
+  display: flex;
+  color: #eae5dc;
+}
+.card-coff img {
+  max-width: 25%;
+  max-height: 100%;
+  overflow: hidden;
+}
+/*********** end product ************/
+/*********** start footer ************/
+.footer {
+  background-color: rgb(3, 27, 32);
+}
+.footercss {
+  padding: -10px;
+}
+.foot-hed {
+  font-family: "Italiana";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #eae5dc;
+}
+.lin {
+  font-family: "Roboto";
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #eae5dc;
+}
+.foot-parg {
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #eae5dc7a;
+}
+
+.img-foot {
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+  border: #031b20 solid 2px;
+  transition: 0.5s;
+}
+
+.icon-social {
+  color: #eae5dc;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.icon-social:hover {
+  transition: 0.5s;
+  color: #d68240;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+.imgcont .lin2 i {
+  margin-left: 5px;
+}
+.imgcont {
+  padding-left: 60%;
+  justify-content: space-evenly;
+  display: flex;
+}
+/*********** end footer ************/

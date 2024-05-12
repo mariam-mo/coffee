@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  background-color: #04191d;
+}
+/*********** start navbar ************/
+.header-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 60;
+  padding: 0 2rem;
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+  -moz-transition: 500ms ease-in-out;
+  -ms-transition: 500ms ease-in-out;
+  -o-transition: 500ms ease-in-out;
+}
+.logo {
+  padding: 0;
+  color: #f8f9fa;
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-family: "Brygada 1918", serif;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Roboto";
+  line-height: 1.7;
+  color: #f8f9fa;
+  font-size: 1rem;
+  padding: 35px;
+  text-decoration: none;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header-nav li a:hover {
+  color: #d68240;
+}
+
+.bttn {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #d68240;
+  text-decoration: none;
+  color: #eae5dc;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Italiana";
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.bttn {
+  height: 60px;
+  line-height: calc(60px - 2px);
+}
+.action a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+.action:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.navbar-color {
+  background-color: #031d21;
+}
+/*********** end navbar ************/
+/*********** start custom scrollbar  ************/
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #04191d;
+}
+::-webkit-scrollbar-thumb {
+  background: #d68240;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/*********** end custom scrollbar  ************/
+/*********** start img *********************/
+.sec {
+  text-align: center;
+  color: #eae5dc;
+}
+.card-img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(12, 48, 54, 0.355);
+}
+
+.sub-txt {
+  margin-top: 11rem;
+  text-align: center;
+}
+.sub-name {
+  font-family: "Italiana";
+  color: #e5ebef;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 1.2;
+  margin-bottom: 5rem;
+}
+/*********** end img *********************/
+/*********** start team *********************/
+.icon-social {
+  color: #eae5dc;
+  transition: 0.5s;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.card {
+  border-radius: 0;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  background-color: #04191d;
+}
+
+.card-name {
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Italiana";
+  line-height: 1.2;
+  color: #eae5dc;
+}
+.sec {
+  margin-top: 4rem;
+}
+.team-hed {
+  font-family: "Roboto";
+  color: #eae5dc;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  line-height: 1.7;
+}
+.card-img-top {
+  height: 25rem;
+}
+.team-title {
+  color: #eae5dc;
+  font-size: 52px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+}
+.team-prg {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #eae5dc7a;
+  margin-top: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.icon-social:hover {
+  transition: 0.5s;
+  color: #d68240;
+}
+.card-body {
+  background-color: #031d21;
+  border: none;
+  color: #9ca0a1;
+}
+.card-name {
+  margin-top: 1rem;
+}
+.card-social .team-social i {
+  margin-left: 5px;
+}
+.card-social {
+  justify-content: space-evenly;
+  display: flex;
+}
+.card-team {
+  overflow: hidden;
+}
+img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-position: top;
+  object-position: top;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
+/*********** start team *********************/
+/*************** start work **********************/
+.container-fluid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 46, 46, 0.541),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/work.jpg);
+  height: 90vh;
+  width: 100%;
+}
+.work .txt-left {
+  margin-top: 13rem;
+  margin-left: 5rem;
+  position: absolute;
+  color: #eae5dc;
+}
+.work-prg {
+  color: #eae5dc7a;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.work-title {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #eae5dc;
+  font-size: 62px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+}
+.work-btn1 {
+  background-color: #d68240;
+  color: #eae5dc;
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid #d68240;
+  padding: 15px;
+  width: 150px;
+  left: 100px;
+  margin-top: 2rem;
+  margin-right: 10px;
+  font-family: "Italiana", sans-serif;
+}
+.work-btn2 {
+  font-family: "Italiana", sans-serif;
+  color: #eae5dc;
+  padding: 10px;
+  font-size: 17px;
+  padding: 15px;
+  border: hidden;
+  background-color: transparent;
+  left: 100px;
+  margin-top: 2rem;
+  margin-right: 11px;
+}
+.txt-right {
+  font-family: "Roboto";
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: 10rem;
+  width: 24rem;
+  height: 24rem;
+  background-color: #04191d;
+  border: #04191d solid 5px;
+  overflow: hidden;
+  margin-top: 12rem;
+  color: #eae5dc;
+  margin-left: 50rem;
+  padding: 3rem 0rem 2rem 0rem;
+  text-align: center;
+}
+.work-hed {
+  font-family: "Roboto";
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.work1-num {
+  font-size: 20px;
+  margin-top: 1rem;
+  font-size: 28px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+}
+.work2-num {
+  font-size: 20px;
+  font-size: 28px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+}
+.work1-title {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+span {
+  color: #d68240;
+}
+/*************** end work **********************/
+/*************** start footer ******************/
+.footer {
+  background-color: #04191d;
+}
+.footercss {
+  padding: -10px;
+}
+.foot-hed {
+  font-family: "Italiana";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #eae5dc;
+}
+.lin {
+  font-family: "Roboto";
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #eae5dc;
+}
+.foot-parg {
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #eae5dc7a;
+}
+
+.img-foot {
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+  border: #031b20 solid 2px;
+  transition: 0.5s;
+}
+
+.icon-social {
+  color: #eae5dc;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.icon-social:hover {
+  transition: 0.5s;
+  color: #d68240;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+.imgcont .lin2 i {
+  margin-left: 5px;
+}
+.imgcont {
+  padding-left: 60%;
+  justify-content: space-evenly;
+  display: flex;
+}
+/*********** start footer ************/

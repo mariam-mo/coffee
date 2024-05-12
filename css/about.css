@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  background-color: #04191d;
+}
+/*********** start navbar ************/
+.header-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 60;
+  padding: 0 2rem;
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+  -moz-transition: 500ms ease-in-out;
+  -ms-transition: 500ms ease-in-out;
+  -o-transition: 500ms ease-in-out;
+}
+.logo {
+  padding: 0;
+  color: #f8f9fa;
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-family: "Brygada 1918", serif;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-family: "Roboto";
+  line-height: 1.7;
+  color: #f8f9fa;
+  font-size: 1rem;
+  padding: 35px;
+  text-decoration: none;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header-nav li a:hover {
+  color: #d68240;
+}
+
+.bttn {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #d68240;
+  text-decoration: none;
+  color: #eae5dc;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Italiana";
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.bttn {
+  height: 60px;
+  line-height: calc(60px - 2px);
+}
+.action a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+.navbar-color {
+  background-color: #031d21;
+}
+/*********** end navbar ************/
+/*********** start custom scrollbar  ************/
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #04191d;
+}
+::-webkit-scrollbar-thumb {
+  background: #d68240;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/*********** end custom scrollbar  ************/
+/*********** start img ************/
+.sec {
+  text-align: center;
+  color: #eae5dc;
+}
+.card-img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(12, 48, 54, 0.355);
+}
+
+.sub-txt {
+  margin-top: 11rem;
+  text-align: center;
+}
+.sub-name {
+  font-family: "Italiana";
+  color: #e5ebef;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 1.2;
+  margin-bottom: 5rem;
+}
+/*********** end img ************/
+/*********** start about ************/
+.about1 {
+  margin-top: 4rem;
+}
+.about1-hed {
+  font-family: "Roboto";
+  color: #eae5dc;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  line-height: 1.7;
+}
+.about1-title {
+  color: #eae5dc;
+  font-size: 52px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+}
+.about1-prg {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #eae5dc7a;
+  margin-top: 1.4rem;
+  margin-bottom: 4rem;
+}
+/*********** end about ************/
+/*********** start feature ************/
+.features {
+  margin-bottom: 5rem;
+}
+.feat-txt {
+  text-align: center;
+  margin-top: 7rem;
+}
+.feat-hed {
+  font-family: "Roboto";
+  color: #eae5dc;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  line-height: 1.7;
+}
+.feat-title {
+  font-family: "Italiana";
+  color: #eae5dc;
+  text-transform: unset;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.feat-prg {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #eae5dc7a;
+}
+.cof-img {
+  color: white;
+}
+.feat-title1 {
+  color: #eae5dc;
+  font-size: 28px;
+  font-family: "Italiana";
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 1.8rem;
+  margin-bottom: 2rem;
+}
+.feat-prg1 {
+  color: #eae5dc7a;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-bottom: 3rem;
+}
+
+.icon-feature {
+  width: 50px;
+  height: 50px;
+  color: #e2dcd1de;
+  margin-top: 4rem;
+}
+/*********** end feature ************/
+/*********** start testimonials ************/
+.test-txt {
+  text-align: center;
+  margin-top: 7rem;
+}
+.test-hed {
+  font-family: "Roboto";
+  color: #eae5dc;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  line-height: 1.7;
+}
+.test-title {
+  font-family: "Italiana";
+  color: #eae5dc;
+  text-transform: unset;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.test-prg {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #eae5dc7a;
+  margin-bottom: 1rem;
+}
+.carousel-caption {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.test-img {
+  margin-left: 24rem;
+  margin-bottom: 1.5rem;
+  width: 15%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.test-name {
+  font-family: "Italiana";
+  color: #eae5dc;
+  text-transform: unset;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.testimonial .carousel-indicators button {
+  margin-bottom: 5rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: #121212;
+}
+#dd {
+  width: 15px;
+  height: 15px;
+  background-color: #d68240;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin-bottom: 5rem;
+}
+.section-heading {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-transform: capitalize;
+  color: #dee2e6;
+}
+.carousel-item {
+  min-height: 500px;
+  position: relative;
+}
+.carousel-img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #dee2e6;
+}
+.carousel-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  bottom: 50px;
+  padding: 50px 0;
+  color: #dee2e6;
+}
+.testimonial-name {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.testimonial-icon {
+  font-size: 40px;
+  color: #dee2e6;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+.testimonial {
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  position: relative;
+  padding-bottom: 100px;
+}
+/*********** end testimonials ************/
+/*********** start footer ************/
+.footer {
+  background-color: rgb(3, 27, 32);
+}
+.footercss {
+  padding: -10px;
+}
+.foot-hed {
+  font-family: "Italiana";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #eae5dc;
+}
+.lin {
+  font-family: "Roboto";
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: #eae5dc;
+}
+.foot-parg {
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #eae5dc7a;
+}
+
+.img-foot {
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+  border: #031b20 solid 2px;
+  transition: 0.5s;
+}
+
+.icon-social {
+  color: #eae5dc;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.icon-social:hover {
+  transition: 0.5s;
+  color: #d68240;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+.imgcont .lin2 i {
+  margin-left: 5px;
+}
+.imgcont {
+  padding-left: 60%;
+  justify-content: space-evenly;
+  display: flex;
+}
+/*********** end footer ************/
